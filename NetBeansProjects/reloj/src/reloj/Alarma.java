@@ -13,7 +13,7 @@ public class Alarma {
     private int hora = 20;
     private int min = 30; 
     /**
-     * activa la alarma
+     * activa la alarma y verificacion en pantalla
      * @return 
      */
     public boolean activaralarma(){
@@ -22,7 +22,7 @@ public class Alarma {
         return activar;
     }
     /**
-     * desactiva la alarma
+     * desactiva la alarma y verificacion en pantalla
      * @return 
      */
     public boolean desactivaralarma(){
@@ -31,7 +31,7 @@ public class Alarma {
         return desactivar;
     }
     /**
-     * ajuste del temporizador de alarma
+     * ajuste del temporizador de alarma y verificacion en pantalla
      */
     public void ajustaralarma(){
         System.out.println("Alarma");

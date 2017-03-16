@@ -11,7 +11,7 @@ package reloj;
  */
 public class Altavoz {
     /**
-     * activa el altavoz con la alarma
+     * activa el altavoz con la alarma y verificacion en pantalla
      */
     public void activaralt(){
         boolean alt = true;
@@ -19,7 +19,7 @@ public class Altavoz {
         
     }
     /**
-     * desactiva el altavoz con la alarma
+     * desactiva el altavoz con la alarma y verificacion en pantalla
      */
     public void desactialt(){
         boolean alt = false;
